@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sleep Outside | Cart</title>
+
+
+    <script type="module" crossorigin src="/assets/cart-Dg9vOCFq.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/utils-QdhfMUCY.js">
+    <link rel="modulepreload" crossorigin href="/assets/each-D6YF6ztN.js">
+    <link rel="stylesheet" crossorigin href="/assets/utils-JYKCveIt.css">
+  </head>
+
+  <body>
+    <header class="divider" id="mainHeader"></header>
+
+    <main class="divider">
+      <section class="products">
+        <h2>My Cart</h2>
+
+        <ul class="product-list"></ul>
+      </section>
+
+      <div class="cart-checkout">
+        <button id="checkoutButton">Checkout</button>
+      </div>
+    </main>
+
+    <footer id="mainFooter"></footer>
+    <script>
+      document
+        .querySelector("#checkoutButton")
+        .addEventListener("click", () => {
+          window.location.href = "/checkout/index.html";
+        });
+    </script>
+  </body>
+</html>
